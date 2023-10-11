@@ -2,10 +2,12 @@
     padding: 0;
     margin: 0;
 }
+.home-page{
+    margin: 1% 5%;
+}
 
 body{
     background-color: rgb(241, 241, 241);
-    margin: 1% 05%;
 }
 .home{
     width: 100%;
@@ -13,7 +15,7 @@ body{
 }
 
 .header{
-    margin-left: -99px;
+    margin-left: -126px;
     top: 0;
     left: 0;
     width: 100%;
@@ -41,7 +43,7 @@ body{
     justify-content: space-between
 }
 .navbar .nav-links {
-    margin-left: -266px;
+    margin-left: -215px;
     display: flex;
     align-items: center;
     list-style: none;
@@ -56,23 +58,28 @@ body{
     margin-left: 130px;
 
 }
-.btn-main button{
+.btn-main a{
     padding: 0;
     background-color: rgb(241, 241, 241);
     color: black;
     border-radius: 6px;
     font-size: 23px;
     line-height: 45px;
-    width: 204px;
+    width: 180px;
     gap: 30px;
-    stroke: black;
+}
+.btn-main a:hover{
+    color: aliceblue;
+    background-color: black; 
 }
 
-.btn-main button a{
+.btn-main div a{
+    padding: 0px 25px;
     color: black;
     display: block;
+    border: solid black 2px;
     margin: 0;
-    width: 100%;
+    width: 70%;
 }
 
 .navbar .nav-links .active{
@@ -96,9 +103,15 @@ background-color: black;
     margin-top: 83px;
 }
 
+.btn-reserve:hover{
+    background-color: rgba(0, 0, 255, 0);
+    color: black;
+    border: solid  black 2px ;
+    cursor: pointer;
+}
+
 .home-img{
     width: 50%;
-    background-color: red;
 }
 
 .welcome-hero-txt h1{
@@ -112,4 +125,64 @@ background-color: black;
 
 .welcome-hero-txt{
     margin-right: 156px;
+}
+
+.footer-contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 250px;
+    margin-top: 177px;
+    background-color: rgb(225, 224, 224);
+    position: relative;
+}
+
+.footer-txt{
+    margin-left: -59px;
+}
+
+.footer-container{
+    display: flex;
+}
+
+.quick-links{
+    display: flex;
+}
+.quick-links-txt{
+    padding-left: 185px;
+    padding-top: 115px;
+}
+
+.footer-title{
+    padding-top: 115px;
+    padding-left: 116px;
+}
+
+.footer-title h1{
+    font-size: 64px;
+}
+.quick-links{
+    font-family: 'Gabarito', sans-serif;
+    padding-top: 48px;
+}
+.quick-links div{
+    padding-right: 70px;
+}
+.quick-links ul{
+    list-style: none;
+}
+.quick-links li{
+    padding-bottom: 20px;
+}
+
+.copyright{
+
+    position: absolute;
+    top: 75%;
+    left: 40%;
+}
+
+.quick-links a{
+    color: black;
+    text-decoration: none;
 }
