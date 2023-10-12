@@ -15,6 +15,7 @@ body{
 }
 
 .header{
+    position: fixed;
     margin-left: -126px;
     top: 0;
     left: 0;
@@ -31,7 +32,7 @@ body{
 }
 
 .container-hero{
-    margin-top: 50px;
+    margin-top: 140px;
     display: flex;
     justify-content: center;
 }
@@ -70,7 +71,7 @@ body{
 }
 .btn-main a:hover{
     color: aliceblue;
-    background-color: black; 
+    background-color: black;
 }
 
 .btn-main div a{
@@ -185,4 +186,206 @@ background-color: black;
 .quick-links a{
     color: black;
     text-decoration: none;
+}
+
+.home-page .container-contact{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-img{
+    width: 43%;
+}
+.form-control{
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.form-control-area{
+    width: 100%;
+    height: 250px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 10px 0px;
+    resize: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.button-submit{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.button-submit:hover{
+    background-color: white;
+    color: black;
+    border: solid  black 2px;
+    cursor: pointer;
+}
+
+.welcome-contact{
+    padding-right: 97px;
+    width: 35%;
+}
+.titleStyle{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 80px;
+}
+
+.activeContact div a{
+    padding: 0px 25px;
+    display: block;
+    border: solid black 2px;
+    margin: 0;
+    width: 70%;
+}
+
+.activeContact a{
+    padding: 0;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    font-size: 23px;
+    line-height: 45px;
+    width: 180px;
+    gap: 30px;
+}
+
+.activeContact a:hover{
+    background-color: rgb(241, 241, 241);
+    color: black;
+}
+
+.form-control{
+    color: black;
+}
+.welcome-about h1{
+    border: black;
+    font-family: 'Gabarito', sans-serif;
+}
+
+/*================ page about========== */
+.container-about{
+    margin-top: 120px;
+}
+
+.about-img{
+    border-radius: 8px;
+    width: 50%;
+    border: 2px solid;
+}
+
+.welcome-about h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 48px;
+    font-size: 40px;
+}
+
+.cadres{
+    padding-top: 29px;
+    display: flex;
+    
+}
+.cadres h2{
+    font-family: 'Gabarito', sans-serif;
+}
+.cadres p{
+    font-family: 'Gabarito', sans-serif;
+    width: 76%;
+    text-align: center;
+    margin-bottom: 21px;
+    margin-top: 13px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-etoile{
+    width: 110px;
+}
+.about-etoile4{
+    width: 90px;
+}
+.about-etoile45{
+    width: 90px;
+}
+/* ================= end about ================== */
+
+/* ================= start flights ============== */
+.welcome-flights h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 48px;
+    font-size: 40px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.flights-img{
+    width: 300px;
+    border-radius: 8px;
+}
+
+.img-tanger{
+    display: flex;
+    margin-bottom: 50px;
+    border: 2px solid;
+}
+.img-london{
+    display: flex;
+    margin-bottom: 50px;
+    border: 2px solid;
+}
+.img-newyork{
+    display: flex;
+    margin-bottom: 50px;
+    border: 2px solid;
+}
+.img-barcelone{
+    display: flex;
+    margin-bottom: 50px;
+    border: 2px solid;
+}
+.flights-space{
+    justify-content: space-between;
+}
+.all-flights h2{
+    font-family: 'Gabarito', sans-serif;
+    margin-left: 400px;
+    margin-top: 50px;
+    
+}
+.all-flights p{
+    font-family: 'Gabarito', sans-serif;
+    text-align: center;
+    width: 60%;
+    margin-left: 176px;
+    margin-top: 27px;
+}
+.flights-icon{
+    width: 5%;
+}
+.price{
+    display: flex; 
+    margin-left: 350px;
+    margin-top: 120px;
+}
+.price h3{
+    font-family: 'Gabarito', sans-serif;
+    margin-left: 30px;
+}
+
+.price p1{
+    font-family: 'Gabarito', sans-serif;
+    margin-left: 40px;
 }
